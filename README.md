@@ -6,7 +6,6 @@ It reads all files inside a given folder and automatically sorts them into subfo
 For example:  
 - `.txt` files go into a `txt/` folder  
 - `.js` files go into a `js/` folder  
-- Files with no extension go into a `noext/` folder  
 
 ---
 
@@ -19,3 +18,7 @@ For example:
 ---
 
 ## 📂 Project Structure
+project/
+├─ content/ # Main folder containing unsorted files
+├─ index.js # Main Node.js script
+└─ README.md
